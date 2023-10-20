@@ -6,13 +6,13 @@ import MovieCard from './MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=e80063';
 
-const movie1 = {
-  Poster: "https://m.media-amazon.com/images/M/MV5BMjE3Mzg0MjAxMl5BMl5BanBnXkFtZTcwNjIyODg5Mg@@._V1_SX300.jpg",
-  Title: "Spiderman and Grandma",
-  Type: "movie",
-  Year: "2009",
-  imdbID: "tt1433184"
-}
+// const movie1 = {
+//   Poster: "https://m.media-amazon.com/images/M/MV5BMjE3Mzg0MjAxMl5BMl5BanBnXkFtZTcwNjIyODg5Mg@@._V1_SX300.jpg",
+//   Title: "Spiderman and Grandma",
+//   Type: "movie",
+//   Year: "2009",
+//   imdbID: "tt1433184"
+// }
 
 
  const App = () => {
@@ -28,7 +28,8 @@ const movie1 = {
   }
 
   useEffect(() => {
-    searchMovies('spiderman');
+    // searchMovies('spiderman');
+    searchMovies('');
   }, []);
 
   return (

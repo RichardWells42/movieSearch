@@ -6,6 +6,9 @@ import MovieCard from './MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=e80063';
 
+// i added this to see if it will fix search issue on netify
+const redirectURI = "https://preeminent-fudge-f5f331.netlify.app";
+
 // const movie1 = {
 //   Poster: "https://m.media-amazon.com/images/M/MV5BMjE3Mzg0MjAxMl5BMl5BanBnXkFtZTcwNjIyODg5Mg@@._V1_SX300.jpg",
 //   Title: "Spiderman and Grandma",
